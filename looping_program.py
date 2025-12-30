@@ -14,14 +14,26 @@ print() # prints a blank new line
 print("Now we will print pattern using for loop:")
 # meaning, for i=0 ; i<10; i++
 # but in python, we need to write like below
-
+# this is old style of printing * pattern
 limit=5
-for i in range(1,limit+1):
-    print("*"*i)
-
+for i in range(limit):
+    for j in range(i+1):
+        print("*", end="")
+    print()
 
 print()
 
+
+for i in range(30):
+    print("*",end="")
+
+for i in range(10):
+    print("*\t\t\t*")
+
+for i in range(30):
+    print("*",end="")
+
+print()
 # Assignment:
 '''
 *
