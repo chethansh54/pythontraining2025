@@ -50,4 +50,4 @@ while True:
         print("BYE")
         exit(0)
     else:
-        print("OPTION GIVEN IS INVALID")
+        print("USE OPTION 1 TO 6 ONLY")
